@@ -48,9 +48,9 @@ public class TestJunit{
 
     @Test
     public void testAdd3(){
-        //  System.out.println(this.countTestCases());
-        //System.out.println(this.getName());
-        //System.out.println(this.countTestCases());
+          System.out.println(this.countTestCases());
+        System.out.println(this.getName());
+        System.out.println(this.countTestCases());
     }
     @AfterClass
     public static void t(){
