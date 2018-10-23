@@ -1,3 +1,4 @@
+import junit.framework.TestCase;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +11,7 @@ import static org.junit.Assert.*;
 //@RunWith(SpringRunner.class)
 //@SpringBootTest
 //@spring-boot-starter-test
-public class TestJunit{
+public class TestJunit extends TestCase {
 
     public static String str;
     public static double d;
@@ -42,8 +43,8 @@ public class TestJunit{
 
     @Test
     public void testAdd2(){
-        //System.out.println(this.getName());
-        //System.out.println(this.countTestCases());
+        System.out.println(this.getName());
+        System.out.println(this.countTestCases());
     }
 
     @Test
