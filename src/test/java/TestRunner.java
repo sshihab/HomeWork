@@ -13,4 +13,5 @@ public class TestRunner{
         System.out.println(result.wasSuccessful());
         System.out.println(result.getRunCount());
     }
+    //For testing
 }
